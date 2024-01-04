@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".page2_Activity"
+    android:gravity="center"
+    android:orientation="vertical">
+
+
+
+    <androidx.cardview.widget.CardView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardElevation="10dp"
+        android:layout_gravity="center"
+        app:cardCornerRadius="100dp"
+        android:layout_margin="20dp"
+        android:backgroundTint="#6F00BCD4">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/sofa2"/>
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardElevation="10dp"
+        android:layout_gravity="center"
+        app:cardCornerRadius="100dp"
+        android:layout_margin="20dp"
+        android:backgroundTint="#6F00BCD4">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="SING UP"
+            android:textSize="40dp"
+            android:gravity="center" />
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardElevation="10dp"
+        app:cardCornerRadius="30dp"
+        android:layout_margin="20dp"
+        android:backgroundTint="#DDF3F6">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Contact Number : "
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="30dp"
+            android:textSize="20dp" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="80dp"
+            android:layout_marginLeft="30dp"
+            android:hint="Pasword : "
+            android:textSize="20dp"
+            android:layout_marginBottom="30dp" />
+
+    </androidx.cardview.widget.CardView>
+
+    <Button
+        android:id="@+id/btnsing_up"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SING UP"
+        android:textSize="30dp"
+        android:backgroundTint="#6F00BCD4"/>
+
+
+</LinearLayout>
+
+    
+
